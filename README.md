@@ -48,4 +48,8 @@ November updates:
 
 First off, my initial code did not assign a static IP address to my board, huge oversight on my part, but the more you learn I guess. Since I need to unplug the board from the power source to charge it when it runs out of power, another device in the house would sometimes steal the board's IP address, so I frequently had to go into ArduinoIDE to upload the code to the board again and it sucked because I would only notice that the IP address changed when my lights did not turn on in the morning and I would be running late again. To solve this issue, I added a snippet of code to assign a static address to my board. I've uploaded the newest version of the code that fixes the problem.
 
-Also, my breadboard was sooo heavy that my tape would often give out and the board would fall off during the night. Of course, I would also only notice when I woke up in the morning and I was running late again! To solve this issue, I bought a soldering kit and an ESP32 mini to make the whole setup lighter. I will update if any issues arise again.
+Also, my breadboard was sooo heavy that my tape would often give out and the board would fall off during the night. Of course, I would also only notice when I woke up in the morning and I was running late again! To solve this issue, I bought a soldering kit and an ESP32 C3 mini to make the whole setup lighter. I will update if any issues arise again.
+
+
+<img width="3024" height="4032" alt="soldered" src="https://github.com/user-attachments/assets/4e755403-06ec-483e-a76e-09fe2997c836" />
+Updated soldered look; I don't think i should have used the perfboard but I was too stubborn and wanted to make use of what I bought 7 months ago. I also changed the GPIO pin to 4.
